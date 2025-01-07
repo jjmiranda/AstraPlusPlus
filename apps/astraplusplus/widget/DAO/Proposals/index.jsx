@@ -23,7 +23,7 @@ State.init({
   hideProposalBtn: false
 });
 
-if (proposalId) {
+if (typeof proposalId !== 'undefined' && proposalId !== null) {
   return (
     <div>
       <Widget
